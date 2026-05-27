@@ -1,4 +1,4 @@
-# This is the project for Math # Hands On, Grades Up
+# This is the project for Math 142 Hands On, Grades Up
 
 If you are not reading this in a codespace, create a codespace on main by clicking the green 'Code' button. It may take some time for the codespace to load initially. 
 
