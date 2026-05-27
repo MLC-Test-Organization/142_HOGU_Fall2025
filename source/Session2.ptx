@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="session2wks" label="5678"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH # Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+
+  <worksheet>
+    <title> Session #2 (Sections #-#)</title>
+    <p>
+      Directions: 
+    </p>
+    
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 1  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+
+      <exercise workspace="1in"><!-- #1 -->
+        <statement>
+          <p>
+            Problem 1 
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="1in"><!-- #2 -->
+        <statement>
+          <p>
+            Problem 2 
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="1in"><!-- #3 -->
+        <statement>
+          <p>
+            Problem 3
+          </p>
+        </statement>
+      </exercise>
+
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+
+      <exercise workspace="1in" number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Problem 1
+          </p>
+        </statement>
+      </exercise> 
+
+      <exercise workspace="1in" number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            Problem 2 with multiple parts.
+          </p>
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 1
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 2
+            </p>
+          </statement>
+        </task>
+      </exercise>
+  
+      <exercise workspace="1in" number="3"><!-- #3 -->
+        <statement>
+          <p> 
+            Problem 3  
+          </p>
+        </statement>
+      </exercise> 
+  
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+
+      <exercise workspace ="1in" number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Problem 1
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Problem 2
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Problem 3 with multiple choice
+            <ol marker="(a)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+
+</pretext>

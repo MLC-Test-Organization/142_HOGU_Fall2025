@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<publication>
+    <!-- directories are relative to the main source PreTeXt file -->
+    <source>
+        <directories external="../assets" generated="../generated-assets"/>
+    </source>
+
+    <common>
+        <tableofcontents level="0"/> <!-- This removes the table of contents -->
+        <worksheet>
+            <!-- Adding some headers and footers when worksheet prints -->
+            <first-page-header right="142 HOGU, Fall 2026"/>
+            <running-header right="142 HOGU, Fall 2026"/>
+            <first-page-footer left="&#xA9; 2026 TAMU Math Learning Center"/>
+            <running-footer left="&#xA9; 2026 TAMU Math Learning Center"/> 
+        </worksheet>
+    </common>
+    <numbering>
+        <divisions level="0"/> <!-- This removes the numbering of worksheets -->
+    </numbering>
+    <html>
+        <css theme="salem" provide-dark-mode="no" color-main="#500000"/> <!-- This is the theme of the worksheet on the web -->
+    </html>
+</publication>
