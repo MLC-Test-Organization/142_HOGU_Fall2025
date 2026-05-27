@@ -9,10 +9,10 @@
         <tableofcontents level="0"/> <!-- This removes the table of contents -->
         <worksheet>
             <!-- Adding some headers and footers when worksheet prints -->
-            <first-page-header right="142 HOGU, Fall 2026"/>
-            <running-header right="142 HOGU, Fall 2026"/>
-            <first-page-footer left="&#xA9; 2026 TAMU Math Learning Center"/>
-            <running-footer left="&#xA9; 2026 TAMU Math Learning Center"/> 
+            <first-page-header right="142 HOGU, Fall 2025"/>
+            <running-header right="142 HOGU, Fall 2025"/>
+            <first-page-footer left="&#xA9; 2025 TAMU Math Learning Center"/>
+            <running-footer left="&#xA9; 2025 TAMU Math Learning Center"/> 
         </worksheet>
     </common>
     <numbering>
