@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>nakad-HOGUSession3</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\D}{\displaystyle}</macros>
+  </docinfo>
+
+<article xml:id="session3wks" label="3401">
+
+  <title>MATH 142 Hands-On, Grades Up</title>
+
+  <introduction>
+    <p>
+      For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+
+  <worksheet>
+
+    <title>Session #4 (2.3, 2.4)</title>
+
+    <paragraphs>
+
+  <title>Getting Warmed Up and In the Right Mindset</title>
+
+  <p>
+    Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+        For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+        at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+  </p>
+
+  <exercise workspace="2in" number="1">
+    <statement>
+      <p>
+        The introductory derivative rules are given below. For each rule, fill in the blank.
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            <em>Derivative of a Constant:</em>
+            For any real number <m>k</m>, <m>\frac{d}{dx}(k)=</m>
+            <fillin characters="15"/>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Derivative of a Power Function:</em>
+            For any real number <m>n</m>,
+            <m>\frac{d}{dx}(x^n)=</m><fillin characters="15"/>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Derivative of an Exponential Function:</em>
+            For any real number <m>b&gt;0</m>,
+            <m>\frac{d}{dx}(b^x)=</m><fillin characters="15"/>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Derivative of a Logarithmic Function:</em>
+            For any real number <m>b&gt;0</m>,
+            <m>\frac{d}{dx}(\log_b(x))=</m><fillin characters="15"/>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Derivative of the Sum of Two Differentiable Functions:</em>
+            <m>\frac{d}{dx}(f(x)+g(x))=</m><fillin characters="15"/>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Derivative of the Difference of Two Differentiable Functions:</em>
+            <m>\frac{d}{dx}(f(x)-g(x))=</m><fillin characters="15"/>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <em>Derivative of a Constant Multiple of a Differentiable Function:</em>
+            For any real number <m>k</m>,
+            <m>\frac{d}{dx}(kf(x))=</m><fillin characters="15"/>
+          </p>
+        </li>
+    </ul>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in" number="2">
+    <statement>
+      <p>
+        Let <m>f</m> and <m>g</m> be two differentiable functions.
+        Circle the correct <em>Product Rule</em> for derivatives.
+      </p>
+
+      <ol marker="1.">
+        <li>
+          <p>
+            <m>
+              \frac{d}{dx}(f(x)g(x))
+              =
+              \left(\frac{d}{dx}f(x)\right)
+              \left(\frac{d}{dx}g(x)\right)
+            </m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>
+              \frac{d}{dx}(f(x)g(x))
+              =
+              f(x)\left(\frac{d}{dx}g(x)\right)
+              +
+              g(x)\left(\frac{d}{dx}f(x)\right)
+            </m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>
+              \frac{d}{dx}(f(x)g(x))
+              =
+              f(x)\left(\frac{d}{dx}g(x)\right)
+              g(x)\left(\frac{d}{dx}f(x)\right)
+            </m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in" number="3">
+    <statement>
+      <p>
+        Let <m>f</m> and <m>g</m> be two differentiable functions.
+        Circle the correct <em>Quotient Rule</em> for derivatives.
+      </p>
+
+      <ol marker="1.">
+        <li>
+          <p>
+            <m>
+              \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)
+              =
+              \frac{\frac{d}{dx}(f(x))}
+                   {\frac{d}{dx}(g(x))}
+            </m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>
+              \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)
+              =
+              \frac{
+                g(x)\left(\frac{d}{dx}f(x)\right)
+                -
+                f(x)\left(\frac{d}{dx}g(x)\right)
+              }{g(x)}
+            </m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>
+              \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)
+              =
+              \frac{
+                g(x)\left(\frac{d}{dx}f(x)\right)
+                -
+                f(x)\left(\frac{d}{dx}g(x)\right)
+              }{(g(x))^2}
+            </m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+</paragraphs>
+
+<paragraphs>
+    <title>Let us get our hands on!</title>
+
+<exercise workspace="1in" number="1">
+  <introduction>
+    <p>
+      Find <m>\frac{dy}{dx}</m> for each of the following. It would help to refer to the derivative rules from the Warm up.
+    </p>
+ </introduction>
+
+    <task workspace="1in">
+        <p><m>y = 3x^2</m></p>
+    </task>
+
+      <task workspace="1in">
+        <p><m>y = 27x + 5</m></p>
+     </task>
+
+      <task workspace="1in">
+        <p><m>y = e^{-5}</m></p>
+     </task>
+
+      <task workspace="1in">
+        <p><m>y = 8^x</m></p>
+     </task>
+
+      <task workspace="1in">
+        <p><m>y = \log_2(x) + 2e^x</m></p>
+     </task>
+
+      <task workspace="1in">
+        <p><m>y = \ln(x) + 2x^{-5}</m></p>
+     </task>
+
+</exercise>
+
+<exercise workspace="1in" number="2">
+
+  <statement>
+    <p>
+      Given <m>f(x)=2x^3+3e^x-5x^{-2}</m> find <m>f'(x)</m>.
+    </p>
+  </statement>
+
+</exercise>
+
+<exercise workspace="1in" number="3">
+
+  <statement>
+    <p>
+      Find
+      <m>
+        \frac{d}{dt}
+        \left(
+        \sqrt[3]{t^2}
+        +5\log_2(t)
+        -\frac{7}{t^{4/3}}
+        \right)
+      </m>
+    </p>
+  </statement>
+
+</exercise>
+
+<exercise workspace="1in" number="4">
+
+  <statement>
+    <p>
+      Find
+      <m>
+        \frac{d}{dx}
+        \left(
+        \frac{4}{x^5}
+        +4^x
+        \right)
+      </m>
+    </p>
+  </statement>
+
+</exercise>
+<exercise workspace="1in" number="5">
+
+  <statement>
+    <p>
+      Find
+      <m>
+        \frac{d}{dx}
+        \left(
+        \frac{5x^4-6x^{-3}+9}{x^2}
+        \right)
+      </m>
+    </p>
+  </statement>
+
+</exercise>
+
+<exercise workspace="1in" number="6">
+
+  <introduction>
+    <p>
+      Given <m>f(x)=7x^{\frac{1}{2}}-x+e</m> and <m>g(x)=\ln(x)-\frac{1}{x}</m>, find the following;
+    </p>
+</introduction>
+
+  <task workspace="1in">
+      <p><m>f'(x)</m></p>
+  </task>
+
+  <task workspace="1in">
+      <p><m>g'(x)</m></p>
+  </task>
+
+  <task workspace="1in">
+      <p><m>h'(x)</m> where <m>h(x)=f(x)+g(x)</m></p>
+  </task>
+
+  <task workspace="1in">
+      <p><m>h'(1)</m></p>
+  </task>
+
+  <task workspace="1in">
+      <p><m>j'(x)</m> where <m>j(x)=f(x)\cdot g(x)</m></p>
+  </task>
+
+</exercise>
+
+<exercise workspace="1in" number="7">
+
+  <introduction>
+    <p>
+      Use
+      <m>f(x)=\frac{1}{3x^{-3}}+\frac{x^2}{2}-4x</m>
+      to answer the questions below. Leave all answers in exact form (i.e., fractions, logarithmic, etc.).
+    </p>
+  </introduction>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find <m>f'(x)</m>.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the slope of the line tangent to the graph of <m>f(x)</m> at <m>x=1</m>.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the values of <m>x</m> where the slope of the line tangent to the graph of <m>f(x)</m> is <m>2</m>.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the equation of the line tangent to the graph of <m>f(x)</m> at <m>x=-4</m>.
+      </p>
+    </statement>
+  </task>
+
+</exercise>
+
+<exercise workspace="1in" number="8">
+
+  <introduction>
+    <p>
+      Given
+      <m>h(x)=\frac{1}{3}x^3+6\ln(x)</m>
+      and the graph of <m>f(x)</m> below, find
+      <m>g'(-6)</m>
+      given
+      <m>g(x)=h(x)+f(x)</m>.
+    </p>
+
+    <image source="MATH142_HOGU_Session4_Fig1.png" width="60%"/>
+  </introduction>
+
+</exercise>
+
+<exercise workspace="1in" number="9">
+  <statement>
+    <p>
+      Match the correct formula to the correct sentence.
+    </p>
+
+    <ol marker="(a)">
+      <li>
+        <p>
+          The <em>Exact</em> cost of making the <m>n^{th}</m> item.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The <em>Exact</em> revenue of making the <m>n^{th}</m> item.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The <em>Exact</em> profit of making the <m>n^{th}</m> item.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The <em>Approximate</em> cost of making the <m>n^{th}</m> item.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The <em>Approximate</em> revenue of making the <m>n^{th}</m> item.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The <em>Approximate</em> profit of making the <m>n^{th}</m> item.
+        </p>
+      </li>
+    </ol>
+
+    <p>
+      Match with:
+      <m>P'(n-1)</m>,
+      <m>P(n)-P(n-1)</m>,
+      <m>C'(n-1)</m>,
+      <m>C(n)-C(n-1)</m>,
+      <m>R'(n-1)</m>,
+      <m>R(n)-R(n-1)</m>.
+    </p>
+  </statement>
+</exercise>
+
+<exercise workspace="1in" number="10">
+
+  <introduction>
+    <p>
+      The price-demand function <m>p(x)</m> and cost function <m>C(x)</m> for the production of electric saws are given by
+      <m>p(x)=750-0.05x^2</m>
+      and
+      <m>C(x)=5800+35x</m>,
+      where <m>x</m> is the number of electric saws that are sold at a price of <m>p(x)</m> dollars per saw, and <m>C(x)</m> is the cost, in dollars, of producing <m>x</m> electric saws.
+    </p>
+  </introduction>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the revenue and profit functions.
+      </p>
+      <p>
+        Hint: <m>R(x)=x\cdot p(x)</m>.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the approximate profit of making and selling the <m>65^{th}</m> saw. Round to the nearest cent if necessary.
+      </p>
+    </statement>
+  </task>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the exact profit of making and selling the <m>65^{th}</m> saw. Round to the nearest cent if necessary.
+      </p>
+    </statement>
+  </task>
+
+</exercise>
+
+<exercise workspace="1in" number="11">
+    <statement>
+        <p>
+           Find
+           <m>
+               \D f'(x)
+           </m>
+           given
+           <m>
+               \D f(x)=4x^{2}(3x^{2/3}+5x)
+           </m>
+           .
+        </p>
+    </statement>
+</exercise>
+
+<exercise workspace="1in" number="12">
+  <statement>
+    <p>
+      Find
+      <m>\frac{d}{dx}\bigg( 6x^2 \cdot 3^x + \frac{3}{x^{-2}} \bigg)</m>
+    </p>
+  </statement>
+</exercise>
+
+<exercise workspace="1in" number="13">
+  <statement>
+    <p>
+      Find the equation of the line tangent to the graph of
+      <m>g(x)=\ln(x)\sqrt{x}</m>
+      at <m>x=1</m>.
+    </p>
+  </statement>
+</exercise>
+
+<exercise workspace="1in" number="14">
+  <statement>
+    <p>
+      Determine if the work below is correct. If it is not correct, state why and work the problem correctly.
+    </p>
+
+    <p>
+      Given <m>f(x)=\frac{\sqrt{x}}{2^x}</m>,
+      <m>
+        f'(x)=\frac{\frac{d}{dx}\bigg(\sqrt{x}\bigg)}{\frac{d}{dx}\bigg(2^x\bigg)}
+        =
+        \frac{\frac{1}{2}x^{-1/2}}{2^x\ln 2}
+      </m>
+    </p>
+  </statement>
+</exercise>
+
+<exercise workspace="1in" number="15">
+  <statement>
+    <p>
+      Given
+      <m>g(x)=\frac{\sqrt[3]{x^2}+3}{e^x-4x^3}</m>,
+      find <m>g'(x)</m>.
+    </p>
+  </statement>
+</exercise>
+
+</paragraphs>
+
+  </worksheet>
+
+</article>
+
+</pretext>
