@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html -->
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+        \newcommand{\foo}{b^{ar}}
+        \newcommand{\D}{\displaystyle}
+    </macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="session5wks" label="5503">
+    <title>MATH 142 Hands-On, Grades Up</title>
+    <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+    </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+<worksheet>
+    <title> Session #5 (Sections 2.5 and 2.6)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+    
+    <paragraphs>
+        <title>Getting Warmed Up and in the Right Mindset</title>
+    
+
+    <exercise><!-- #1 -->
+      <statement>
+        <p>
+          Fill in the blanks to complete the special cases of the chain rule.
+          <p>
+          The Chain Rule: If <m>f</m> and <m>g</m> are differentiable functions, then
+          <md>
+            \frac{d}{dx}(f(g(x))) = f'(g(x))\cdot g'(x).
+          </md>
+          </p>
+          <p>
+            Special Cases of Chain Rule: If <m>g</m> is a differentiable function, <m>n</m> is any real number, and <m>b</m> is any positive real number, then
+            <ul>
+              <li>
+                <p>
+                 Generalized Power Rule: If <m>\displaystyle{y =(g(x))^n}</m>, then <m>\D y\;'= \rule{2in}{0.05mm}.</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                 Generalized Exponential (base <m>b</m>) Rule: If <m>\displaystyle{y =b^{g(x)}}</m>, then <m>\D y\;'= \rule{2in}{0.05mm}.</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                 Generalized Logarithm (base <m>b</m>) Rule: If <m>\displaystyle{y =\log_b(g(x))}</m>, then <m>\D y\;'=\rule{2in}{0.05mm}.</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                In this exercise, we are going to find the derivative of <m>\D f(x)=(3x^{2}+1)^{2}</m>
+                in two different ways and then compare the answers. 
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                Rewrite <m>\D (3x^{2}+1)^{2}</m> as the product of two binomials. Then multiply the two binomials together (i.e., FOIL) 
+                and then take the derivative of the resulting sum.  
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                Now use the chain rule to find <m>f'(x)</m>. Do you get the same result as part (a) above?  
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    </paragraphs>
+    
+    <paragraphs>
+        <title>Let Us Get Our Hands On</title>
+    <exercise number="1"><!-- #1 -->
+      <introduction>
+        <p> Find the derivatives of each function given below. Do not simplify your answers after  you have applied the appropriate derivative rules.</p>
+      </introduction>
+            <task workspace="1in">
+              <p>
+                <m>\D f(x) = e^{4x}</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D f(x) = \sqrt{2x^{2}-e}</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D f(x) = \ln(x^{2})+x-3^{x}</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D f(x)=\sqrt{e^{x^2}+5x}</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D h(x)=\log_{3}\left((x^{2/3}+4x)^{8}\right)</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D f(x)=4\bigg(\frac{3}{x^{4}}+2^{x}\bigg)^{5}</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D g(x)=\frac{3x}{\sqrt{e^{x^2}+5x}}</m>
+              </p>
+            </task>
+            <task workspace="1in">
+              <p>
+                <m>\D h(x)=e^{4x}\ln\bigg(x^{2}+\sqrt{x}\bigg)</m>
+              </p>
+            </task>
+    </exercise> 
+
+    <exercise number="2"><!-- #2 -->
+      <introduction>
+        <p> Let <m>f(x)</m> be a differentiable function. The values of <m>f(x)</m> and <m>f'(x)</m> are given in the table below and the graph of <m>g(x)</m> is shown.</p>
+            <sidebyside widths ="40% 50%" valign ="middle">
+            <p>
+              <image source="MATH142_HOGU_Session5_Fig1.png" width="50%">
+              <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+              <description>
+                <p>
+                  [FIX]
+                </p>
+              </description>
+            </image> 
+            </p>
+            <p>
+            <table><!--see chp 20 on Guide for how to create tables-->
+              <title>Values of <m>f(x)</m> and <m>f'(x)</m></title>
+              <tabular halign="center">
+                <row header="yes" bottom="minor" >
+                  <cell><m>x</m></cell>
+                  <cell><m>f(x)</m></cell>
+                  <cell><m>f'(x)</m></cell>
+                </row>
+                <row>
+                  <cell><m>1</m></cell>
+                  <cell><m>3</m></cell>
+                  <cell><m>4</m></cell>
+                </row>
+                <row>
+                  <cell><m>2</m></cell>
+                  <cell><m>2</m></cell>
+                  <cell><m>5</m></cell>
+                </row>
+                <row>
+                  <cell><m>3</m></cell>
+                  <cell><m>1</m></cell>
+                  <cell><m>6</m></cell>
+                </row>
+              </tabular>
+            </table>
+            </p>
+        </sidebyside>
+        </introduction>
+          <task workspace="1.5in">
+            <p>
+              Let <m>h(x)=g(f(x)).</m> Find <m>\D h'(3)</m>.
+            </p>
+          </task>
+          <task workspace="1.5in">
+            <p>
+              Let <m>k(x)=f(g(x))</m>. Find <m>\D k'(1)</m>.
+            </p>
+          </task>
+          <task workspace="1.5in">
+            <p>
+              Let <m>\D m(x)=\frac{h(x)}{x^{2}}</m>. Find <m>\D m'(3)</m>. (<em>Hint: Use part (a) to find <m>h(3)</m> and <m>h'(3)</m>.</em>)
+            </p>
+          </task>
+    </exercise>  
+  
+  </paragraphs>
+  
+    <paragraphs>
+        <title>Now Grades Go Up</title>
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            The cost to produce <m>x</m> keychains in a day for a particular company is given by <m>C(x) = \sqrt{20x+2}+175</m> dollars.
+            Use marginal analysis to approximate the cost of producing the 10th keychain.
+              <ol marker="(a)">
+                <li> <p><m>\$ 0.22</m></p> </li>
+                <li> <p> <m>\$ 0.11</m></p> </li>
+                <li> <p><m>\$ 0.72</m> </p> </li>
+                <li> <p> <m>\$ 0.74</m></p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+      </paragraphs>
+
+
+  </worksheet>
+
+  </article>
+
+</pretext>
