@@ -88,7 +88,7 @@
           <p>
             <em>Derivative of a Constant Multiple of a Differentiable Function:</em>
             For any real number <m>k</m>,
-            <m>\frac{d}{dx}(kf(x))=</m><fillin characters="15"/>
+            <m>\frac{d}{dx}(k\cdot f(x))=</m><fillin characters="15"/>
           </p>
         </li>
     </ul>
@@ -106,9 +106,9 @@
         <li>
           <p>
             <m>
-              \frac{d}{dx}(f(x)g(x))
+              \frac{d}{dx}(f(x)\cdot g(x))
               =
-              \left(\frac{d}{dx}f(x)\right)
+              \left(\frac{d}{dx}f(x)\right)\cdot
               \left(\frac{d}{dx}g(x)\right)
             </m>
           </p>
@@ -117,11 +117,11 @@
         <li>
           <p>
             <m>
-              \frac{d}{dx}(f(x)g(x))
+              \frac{d}{dx}(f(x)\cdot g(x))
               =
-              f(x)\left(\frac{d}{dx}g(x)\right)
+              f(x)\cdot\left(\frac{d}{dx}g(x)\right)
               +
-              g(x)\left(\frac{d}{dx}f(x)\right)
+              g(x)\cdot\left(\frac{d}{dx}f(x)\right)
             </m>
           </p>
         </li>
@@ -129,10 +129,10 @@
         <li>
           <p>
             <m>
-              \frac{d}{dx}(f(x)g(x))
+              \frac{d}{dx}(f(x)\cdot g(x))
               =
-              f(x)\left(\frac{d}{dx}g(x)\right)
-              g(x)\left(\frac{d}{dx}f(x)\right)
+              f(x)\cdot \left(\frac{d}{dx}g(x)\right)\cdot
+              g(x)\cdot \left(\frac{d}{dx}f(x)\right)
             </m>
           </p>
         </li>
@@ -165,9 +165,9 @@
               \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)
               =
               \frac{
-                g(x)\left(\frac{d}{dx}f(x)\right)
+                g(x)\cdot \left(\frac{d}{dx}f(x)\right)
                 -
-                f(x)\left(\frac{d}{dx}g(x)\right)
+                f(x)\cdot \left(\frac{d}{dx}g(x)\right)
               }{g(x)}
             </m>
           </p>
@@ -179,9 +179,9 @@
               \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)
               =
               \frac{
-                g(x)\left(\frac{d}{dx}f(x)\right)
+                g(x)\cdot \left(\frac{d}{dx}f(x)\right)
                 -
-                f(x)\left(\frac{d}{dx}g(x)\right)
+                f(x)\cdot \left(\frac{d}{dx}g(x)\right)
               }{(g(x))^2}
             </m>
           </p>
@@ -372,9 +372,19 @@
       <m>g'(-6)</m>
       given
       <m>g(x)=h(x)+f(x)</m>.
-    </p>
 
-    <image source="MATH142_HOGU_Session4_Fig1.png" width="60%"/>
+
+    <image source="MATH142_HOGU_Session4_Fig1.png" width="60%">
+    <shortdescription>Graph of a function plotted on the coordinate axes. Refer to image description for more detail.</shortdescription>
+    <description>
+      <p>
+        Graph of a linear, piece-wise defined function <m>f(x)</m> plotted on the coordinate axes. Starting from the left, the function is a constant line to the point <m>(-7, 5)</m>.
+        The function decreases to the point <m>(-5,1)</m> before then increasing to the point <m>(-2,4)</m>. 
+        The function is then a constant line from the point <m>(-2, 4)</m> to the point until it leave the graph on the right.
+      </p>
+    </description>
+    </image>
+    </p>
   </introduction>
 
 </exercise>
@@ -384,54 +394,54 @@
     <p>
       Match the correct formula to the correct sentence.
     </p>
-
+    <sidebyside widths ="65% 35%" valign ="middle">
     <ol marker="(a)">
       <li>
         <p>
-          The <em>Exact</em> cost of making the <m>n^{th}</m> item.
+          The <em>Exact</em> cost of making the <m>n^{th}</m> item is <fillin characters="15" />.
         </p>
       </li>
 
       <li>
         <p>
-          The <em>Exact</em> revenue of making the <m>n^{th}</m> item.
+          The <em>Exact</em> revenue of making the <m>n^{th}</m> item is <fillin characters="15" />.
         </p>
       </li>
 
       <li>
         <p>
-          The <em>Exact</em> profit of making the <m>n^{th}</m> item.
+          The <em>Exact</em> profit of making the <m>n^{th}</m> item is <fillin characters="15" />.
         </p>
       </li>
 
       <li>
         <p>
-          The <em>Approximate</em> cost of making the <m>n^{th}</m> item.
+          The <em>Approximate</em> cost of making the <m>n^{th}</m> item is <fillin characters="15" />.
         </p>
       </li>
 
       <li>
         <p>
-          The <em>Approximate</em> revenue of making the <m>n^{th}</m> item.
+          The <em>Approximate</em> revenue of making the <m>n^{th}</m> item is <fillin characters="15" />.
         </p>
       </li>
 
       <li>
         <p>
-          The <em>Approximate</em> profit of making the <m>n^{th}</m> item.
+          The <em>Approximate</em> profit of making the <m>n^{th}</m> item is <fillin characters="15" />.
         </p>
       </li>
     </ol>
 
-    <p>
-      Match with:
-      <m>P'(n-1)</m>,
-      <m>P(n)-P(n-1)</m>,
-      <m>C'(n-1)</m>,
-      <m>C(n)-C(n-1)</m>,
-      <m>R'(n-1)</m>,
-      <m>R(n)-R(n-1)</m>.
-    </p>
+    <ul>
+      <li><m>P'(n-1)</m></li>
+      <li><m>P(n)-P(n-1)</m></li>
+      <li><m>C'(n-1)</m></li>
+      <li><m>C(n)-C(n-1)</m></li>
+      <li><m>R'(n-1)</m></li>
+      <li><m>R(n)-R(n-1)</m></li>
+    </ul>
+    </sidebyside>
   </statement>
 </exercise>
 
@@ -538,6 +548,53 @@
   </statement>
 </exercise>
 
+</paragraphs>
+
+<paragraphs>
+        <title>Now Grades Go Up</title>
+  <exercise workspace="1in" number="1">
+    <statement>
+      <p>
+        At which <m>x</m>-value(s) does <m>f(x) = x^{2} +6x-7</m> have a horizontal tangent line?
+        <ol marker="(a)">
+            <li><p><m>x = -3</m></p></li>
+            <li><p><m>x = -7</m> and <m>x=1</m></p></li>
+            <li><p><m>x = 7</m> and <m>x = -1</m></p></li>
+            <li><p><m>x = 6</m></p></li>
+            <li><p>Graph of <m>f</m> has no horizontal tangent lines</p></li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in" number="2">
+    <statement>
+      <p>
+        The derivative of <m>f(x) = \frac{13x^{2}}{e^{x}+1}</m> is
+        <ol marker="(a)">
+            <li><p><m>f'(x) = \frac{13x^{2}e^{x}-26x(e^{x}+1)}{(e^{x}+1)^{2}}</m></p></li>
+            <li><p><m>f'(x) = \frac{13x^{2}-e^{x}-1}{e^{x}+1}</m></p></li>
+            <li><p><m>f'(x) = \frac{26x(e^{x}+1)-13x^{2}e^{x}}{e^{x}+1}</m></p></li>
+            <li><p><m>f'(x) = \frac{26x(e^{x}+1)-13x^{2}e^{x}}{(e^{x}+1)^{2}}</m></p></li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in" number="3">
+    <statement>
+      <p>
+        Find <m>h'(2)</m> given that <m>f(2) = -2</m>, <m>f'(2) = 5</m>, and <m>h(x) = (3x^{2})\cdot f(x)</m>
+        <ol marker="(a)">
+            <li><p><m>12</m></p></li>
+            <li><p><m>60</m></p></li>
+            <li><p><m>-24</m></p></li>
+            <li><p><m>36</m></p></li>
+            <li><p><m>-60</m></p></li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
 </paragraphs>
 
   </worksheet>
