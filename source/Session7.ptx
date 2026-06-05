@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html -->
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+        \newcommand{\foo}{b^{ar}}
+        \newcommand{\D}{\displaystyle}
+    </macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="session7wks" label="7822">
+    <title>MATH 142 Hands-On, Grades Up</title>
+    <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+    </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+<worksheet>
+    <title> Session #7 (2.3 - 2.6, 3.1 - 3.3)</title><!-- SECTION 1-->
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+    
+    <paragraphs>
+        <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise>
+          <introduction>
+            <p>Let <m>f(x) = 3x^7 - x^6 + 17</m>.</p>
+          </introduction>
+          <task workspace="1in">
+            <statement>
+              <p>On what interval(s) is <m>f(x)</m> increasing?</p>
+            </statement>
+          </task>
+          <task workspace="1in">
+            <statement>
+              <p>On what interval(s) is <m>f(x)</m> concave down?</p>
+            </statement>
+          </task>
+          <task workspace="1in">
+            <statement>
+              <p>On what interval(s) is <m>f(x)</m> both increasing and concave down?</p>
+            </statement>
+          </task>
+        </exercise>
+    
+    </paragraphs>
+    
+    <paragraphs>
+        <title>Let Us Get Our Hands On</title>
+      <exercise number="1" workspace="1in">
+          <statement>
+            <p>
+              Below is a list of information given about a function <m>f</m>.
+              Create sign charts for <m>f'</m> and <m>f''</m> and use the sign
+              charts to sketch a graph of the function <m>f</m>.
+            </p>
+            <p>
+              <ul>
+                <li><p>Domain of <m>f</m>: <m>(-\infty, -\sqrt{3})\cup (-\sqrt{3}, \sqrt{3}) \cup (\sqrt{3}, \infty)</m></p></li>
+                <li><p>Vertical asymptotes at <m>x = \sqrt{3}</m> and <m>x = -\sqrt{3}</m>.</p></li>
+                <li><p>Horizontal asymptote at <m>y = 0</m>.</p></li>
+                <li><p><m>f(0) = -\dfrac{1}{3}</m></p></li>
+                <li><p><m>f'(0) = 0</m></p></li>
+                <li><p><m>f'(x) \gt 0</m> on <m>(-\infty, -\sqrt{3})</m> and <m>(-\sqrt{3}, 0)</m></p></li>
+                <li><p><m>f'(x) \lt 0</m> on <m>(0,\sqrt{3})</m> and <m>(\sqrt{3}, \infty)</m></p></li>
+                <li><p><m>f''(x) \gt 0</m> on <m>(-\infty, -\sqrt{3})</m> and <m>(\sqrt{3}, \infty)</m></p></li>
+                <li><p><m>f''(x) \lt 0</m> on <m>(-\sqrt{3}, \sqrt{3})</m></p></li>
+              </ul>
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="2">
+          <introduction>
+            <p>
+              Find the derivatives of the following functions. Do not simplify
+              your answers; it is okay to just apply the appropriate derivative
+              rules and leave the answer unsimplified.
+            </p>
+        </introduction>
+          <task workspace="1in">
+            <statement>
+              <p><m>\displaystyle f(x)=\left(e^{x+e^x}\right) \sqrt[3]{x^2+1}</m></p>
+            </statement>
+          </task>
+          <task workspace="1in">
+            <statement>
+              <p><m>\displaystyle f(x)=\frac{x^2}{3^{2x^4+x}}</m></p>
+            </statement>
+          </task>
+          <task workspace="1in">
+            <statement>
+              <p><m>\displaystyle f(x)=e^{e^{2x}}+\ln \left( \frac{3x^2+2}{5x-1} \right) +e^{\pi}</m></p>
+            </statement>
+          </task>
+          <task workspace="1in">
+            <statement>
+              <p><m>\displaystyle f(x)=\left( \log_2(e^{3x}+x^2) \right)^3</m></p>
+            </statement>
+          </task>
+        </exercise>
+
+        <exercise number="3" workspace="1in">
+          <statement>
+            <p>
+              Find the equation of the line tangent to
+              <m>f(x)=\sqrt{2x^2-2}</m> at <m>x=3</m>.
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="4" workspace="1in">
+          <statement>
+            <p>
+              Given <m>\displaystyle 10x^2 + \frac{13}{2}y^2 - 9 = x^4y^5</m>,
+              find <m>\displaystyle \frac{dy}{dx}</m>.
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="5" workspace="1in">
+          <statement>
+            <p>
+              Given the following information about <m>f(x)</m>, determine the
+              interval(s) where <m>f(x)</m> is increasing or decreasing and
+              concave up or concave down. Identify any <m>x</m>-values where
+              <m>f(x)</m> has local extrema and points of inflection (if any).
+            </p>
+            <p>
+              <ul>
+                <li><p>The domain of <m>f(x)</m> is <m>\displaystyle (-\infty, -4) \cup (-4,\infty)</m>.</p></li>
+                <li><p><m>\displaystyle f'(x)=\frac{2x^2+16x}{(x+4)^2}</m></p></li>
+                <li><p><m>\displaystyle f''(x)=\frac{64}{(x+4)^3}</m></p></li>
+              </ul>
+            </p>
+            <p>
+              <ul>
+                <li><p><m>f</m> is increasing on <fillin characters="20"/></p></li>
+                <li><p><m>f</m> is decreasing on <fillin characters="20"/></p></li>
+                <li><p><m>f</m> is concave up on <fillin characters="20"/></p></li>
+                <li><p><m>f</m> is concave down on <fillin characters="20"/></p></li>
+                <li><p><m>f</m> has local extrema at <fillin characters="20"/></p></li>
+                <li><p><m>f</m> has point(s) of inflection at <fillin characters="20"/></p></li>
+              </ul>
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="6" workspace="1in">
+          <statement>
+            <p>
+              Use the second derivative test to find the relative extrema of
+              <m>\displaystyle f(x)=\frac{1}{3}x^3-x^2-8x</m>. Give the
+              coordinate points of the extrema.
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="7" workspace="1in">
+          <statement>
+            <p>
+              A cylindrical tank with a radius of 2 meters is being filled with
+              water at a rate of 10 cubic meters per minute. How fast is the
+              height of the water increasing when the water is 5 meters deep?
+            </p>
+            <figure xml:id="fig-cylinder">
+              <caption>Cylinder diagram</caption>
+              <image source="Graphics/Cylninder.png" width="15%">
+                <description><p>Diagram of a cylinder.</p> </description>
+              </image>
+            </figure>
+            <p>
+              <alert>Formulas for Cylinders:</alert>
+              Volume: <m>\displaystyle V=\pi r^2h</m>;
+              Surface Area: <m>\displaystyle A=2\pi rh+2\pi r^2</m>.
+            </p>
+          </statement>
+        </exercise>
+  
+    </paragraphs>
+  
+    <paragraphs>
+        <title>Now Grades Go Up</title>
+      <exercise number="1">
+          <statement>
+            <p>
+              A marker manufacturer determined that the total cost, in dollars,
+              of producing <m>x</m> boxes of dry erase markers in one day is
+              given by <m>C(x)=350+2x-0.01x^2</m>, where <m>0\leq x \leq 150</m>.
+              Approximate the cost of producing the 103rd box of dry erase
+              markers using marginal analysis.
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="2">
+          <statement>
+            <p>
+              A marker manufacturer determined that the total cost, in dollars,
+              of producing <m>x</m> boxes of dry erase markers in one day is
+              given by <m>C(x)=350+2x-0.01x^2</m>, where <m>0\leq x \leq 150</m>.
+              Find the <em>exact</em> cost of producing the 103rd box of dry
+              erase markers.
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="3">
+          <statement>
+            <p>
+              Given <m>\displaystyle h(x)=\frac{f(x)}{\sqrt{2x}}</m>,
+              <m>f(8)=80</m>, and <m>f'(8)=3</m>, find <m>h'(8)</m>.
+            </p>
+            <p>
+              <ol label="a">
+                <li><p><m>\displaystyle -\frac{1}{2}</m></p></li>
+                <li><p><m>\displaystyle \frac{1}{2}</m></p></li>
+                <li><p><m>\displaystyle \frac{1}{8}</m></p></li>
+                <li><p><m>\displaystyle -\frac{77}{4}</m></p></li>
+                <li><p><m>20</m></p></li>
+              </ol>
+            </p>
+          </statement>
+        </exercise>
+
+        <exercise number="4">
+          <statement>
+            <p>Circle the graph that fits the criteria below.</p>
+            <p>
+              <ul>
+                <li><p><m>h(-2)=3</m></p></li>
+                <li><p><m>h'(x) \gt 0</m> on <m>(-\infty,-2)</m></p></li>
+                <li><p><m>h'(x) \lt 0</m> on <m>(-2,0)</m></p></li>
+                <li><p><m>h''(x) \lt 0</m> on <m>(-\infty,-1)</m></p></li>
+                <li><p><m>h'(x)=0</m> at <m>x=-2</m></p></li>
+                <li><p><m>\lim_{x \to \infty} h''(x) \to \infty</m></p></li>
+              </ul>
+            </p>
+            <p>
+              <ol label="a">
+                <li>
+                  <p>Graph I</p>
+                  <figure xml:id="fig-graph1">
+                    <caption>Graph I</caption>
+                    <image source="Graphics/MATH142_HOGU_Session7_Fig4.png" width="45%">
+                      <description>Graph I — candidate graph for h(x).</description>
+                    </image>
+                  </figure>
+                </li>
+                <li>
+                  <p>Graph II</p>
+                  <figure xml:id="fig-graph2">
+                    <caption>Graph II</caption>
+                    <image source="Graphics/MATH142_HOGU_Session7_Fig5.png" width="45%">
+                      <description>Graph II — candidate graph for h(x).</description>
+                    </image>
+                  </figure>
+                </li>
+                <li>
+                  <p>Graph III</p>
+                  <figure xml:id="fig-graph3">
+                    <caption>Graph III</caption>
+                    <image source="Graphics/MATH142_HOGU_Session7_Fig8.png" width="45%">
+                      <description>Graph III — candidate graph for h(x).</description>
+                    </image>
+                  </figure>
+                </li>
+                <li>
+                  <p>Graph IV</p>
+                  <figure xml:id="fig-graph4">
+                    <caption>Graph IV</caption>
+                    <image source="Graphics/MATH142_HOGU_Session7_Fig6.png" width="45%">
+                      <description>Graph IV — candidate graph for h(x).</description>
+                    </image>
+                  </figure>
+                </li>
+                <li>
+                  <p>Graph V</p>
+                  <figure xml:id="fig-graph5">
+                    <caption>Graph V</caption>
+                    <image source="Graphics/MATH142_HOGU_Session7_Fig7.png" width="45%">
+                      <description>Graph V — candidate graph for h(x).</description>
+                    </image>
+                  </figure>
+                </li>
+              </ol>
+            </p>
+          </statement>
+        </exercise>
+    </paragraphs>
+      
+
+  </worksheet>
+
+  </article>
+
+</pretext>
