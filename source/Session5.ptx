@@ -199,6 +199,30 @@
             </p>
           </task>
     </exercise>  
+
+    <exercise number="3" workspace="1in">
+      <statement>
+        <p>
+          Use implicit differentiation to find <m>\frac{dy}{dx}</m> for the curve <m>x^2-y^2=1</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise number="4" workspace="1in">
+      <statement>
+        <p>
+          Use implicit differentiation to find <m>\frac{dy}{dx}</m> for the curve <m>x^3+y^2=3x-y</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise number="5" workspace="1in">
+      <statement>
+        <p>
+          Find the equation of the line <m>\D l_{1}</m> that is tangent to the curve <m>\D (x-1)y^{2}=x+1</m> at <m>(1.25, 3)</m>.
+        </p>
+      </statement>
+    </exercise>
   
   </paragraphs>
   
@@ -218,6 +242,21 @@
           </p>
         </statement>
       </exercise>
+      
+      <exercise>
+        <statement>
+          <p>
+            Which of the following is the equation of the line tangent to the curve <m>x^{3}+y^{2}=3x^{2}-y</m> at the point <m>(1,-1)</m>?
+            <ol marker="(a)">
+                <li> <p><m>y = x</m></p> </li>
+                <li> <p> <m>y = -x</m></p> </li>
+                <li> <p><m>y = \frac{1}{2}x-3</m> </p> </li>
+                <li> <p> <m>y = -3x+2</m></p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
       </paragraphs>
 
 
