@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html -->
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+        \newcommand{\foo}{b^{ar}}
+        \newcommand{\D}{\displaystyle}
+    </macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="session8wks" label="2008">
+    <title>MATH 142 Hands-On, Grades Up</title>
+    <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+    </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+<worksheet>
+    <title> Session #8 (Sections 3.4-3.5)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+    
+    <paragraphs>
+        <title>Getting Warmed Up and In the Right Mindset....</title>
+    <exercise>
+      <statement>
+        <p>
+          On the graph of <m>g(x)</m> below, label all local and absolute extrema from point <m>A</m> to point <m>B</m>. You do not need to give the coordinates.
+        </p>
+        <image source="MATH142_HOGU_Session8_Fig4.png" width="70%">
+          <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+          <description>
+            <p>
+              From left to right, the graph begins at a point labeled <m>A</m> on the <m>x</m>-axis and increases until reaching a peak at <m>x=-2</m> and begins 
+              decreasing until it reaches the origin, where it then increases until reaching a peak at <m>x=1</m> where it then decreases to <m>x=3</m>, and then increases
+              before the function ends at a point labeled <m>B</m>.
+            </p>
+          </description>
+        </image>
+      </statement>
+    </exercise>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Let us get our hands on!</title>
+    <p>Use the graph of <m>h(x)</m> below to answer the questions that follow.</p>
+    <image source="MATH142_HOGU_Session8_Fig1.png" width="70%">
+      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+      <description>
+        <p>
+          The function begins on the left, increasing until reaching a peak at the point <m>(-5,30)</m> where it then decreases to the point <m>(1,-25)</m>. The function then
+          increases and reaches a peak at the point <m>(3,-5)</m> and then decreases to the point <m>(6,-50)</m>. 
+          Finally the graph increases and leaves the graph at the top right.
+          The graph has a notable closed point at <m>(1,-10)</m> and an open point at <m>(1,-25)</m>.
+        </p>
+      </description>
+    </image>
+    
+    <exercise number="1">
+      <introduction>
+        <p>On the interval <m>(-\infty, \infty)</m>, <m>h(x)</m> has</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>absolute maximum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>absolute minimum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise number="2">
+      <introduction>
+        <p>On the interval <m>[-7,-3]</m>, <m>h(x)</m> has</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>absolute maximum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>absolute minimum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise number="3">
+      <introduction>
+        <p>On the interval <m>[-3, 5)</m>, <m>h(x)</m> has</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>absolute maximum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>absolute minimum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise number="4">
+      <introduction>
+        <p>On the interval <m>(0,6)</m>, <m>h(x)</m> has</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>absolute maximum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>absolute minimum of <fillin/> at <m>x=</m><fillin/>.</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise number="5">
+      <introduction>
+        <p>Given <m>\D f(x) = (x-2)e^x</m>, find:</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>All critical values of <m>\D f(x)</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>All absolute extrema of <m>f(x)</m> on <m>\D [0,2]</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>All absolute extrema of <m>f(x)</m> on <m>\D [-5,0]</m>.</p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise number="6">
+      <statement>
+        <p>Find the absolute extrema of <m>\D f(x)=x^3-12x</m> on <m>[-5,4]</m>.</p>
+      </statement>
+    </exercise>
+
+    <exercise number="7">
+      <statement>
+        <p>Determine the absolute extrema of <m>\D f(x)=(9-x)\sqrt{x}</m> on <m>(2,7)</m>. Be sure to keep your answers in exact form.</p>
+      </statement>
+    </exercise>
+
+    <exercise number="8">
+      <statement>
+        <p>The product of two positive numbers, <m>x</m> and <m>y</m>, is 100. Find <m>x</m> and <m>y</m> such that <m>M</m> is a minimum given <m>\D M=2x+3y</m>.</p>
+        <p>Follow the optimization process below (also in your notes) to solve the problem. Steps 1 and 3 are already done for you, but make sure you understand them!</p>
+        <ol>
+          <li>
+            <p><b>Step 1.</b> Translate the word problem into mathematical form using the following sub-steps:</p>
+            <ol>
+              <li>Identify the quantity you want to maximize or minimize.<br/>
+                Minimize <m>M</m> where <m>M = 2x+3y</m>.</li>
+              <li>Draw a picture (if applicable).<br/>
+                Not Applicable.</li>
+              <li>State the objective function and any constraint equations.<br/>
+                Objective function: <m>M = 2x+3y</m>, Constraint Equation: <m>xy=100</m>.</li>
+            </ol>
+          </li>
+          <li>
+            <p><b>Step 2.</b> State the objective equation in terms of one variable.</p>
+          </li>
+          <li>
+            <p><b>Step 3.</b> Find the interval on which the objective function must be optimized.<br/>
+              <m>(0,\infty)</m>.</p>
+          </li>
+          <li>
+            <p><b>Step 4.</b> Use calculus to find the optimal solution by following the sub-steps below:</p>
+            <ol>
+              <li>Find the critical values of the objective function.</li>
+              <li>If the interval is closed, evaluate the objective function at the critical values in the interval as well as the endpoints of the interval. If the interval is open and there is only one critical value in the interval, do the first or second derivative test.</li>
+            </ol>
+          </li>
+          <li>
+            <p><b>Step 5.</b> Provide the final answer to the problem (include units if applicable).</p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise number="9">
+      <statement>
+        <p>Your friend's family is planning to build a rectangular swimming pool. The water surface is to have an area of 1200 square feet. The pool will also have a 6-foot-wide walkway on the east and west sides and an 8-foot walkway on the north and south sides. Let <m>x</m> be the length of the pool (east to west), and let <m>y</m> be the width of the pool (north to south). Given that <m>\D 10 \leq x \leq 100</m>, find the dimensions of the pool that will minimize the total area of the swimming pool and walkways.</p>
+        <image source="swimmingpool (1).png" width="30%">
+          <shortdescription>Diagram of a rectangle contained within a bigger rectangle.</shortdescription>
+        </image>
+      </statement>
+    </exercise>
+
+    <exercise number="10">
+      <introduction>
+        <p>The Tool Shack manufactures ratchet sets. The monthly fixed costs are \$15,000 and variable costs are \$180 for each ratchet set produced. The company estimates that 300 sets can be sold each month if the unit price is \$280 and that 20 more units can be sold for each decrease of \$14 in the price. Let <m>x</m> represent the number of ratchet sets produced and sold each month.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p>Determine the monthly cost function <m>C(x)</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Assuming the demand function follows a linear model, determine the monthly revenue function, <m>R(x)</m>.</p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>Determine the value of <m>x</m> that maximizes the monthly profit, assuming that <m>150 \leq x \leq 580</m>. Round to the nearest whole if necessary.</p>
+        </statement>
+      </task>
+    </exercise>
+
+    </paragraphs>
+    
+  </worksheet>
+  </article>
+</pretext>
