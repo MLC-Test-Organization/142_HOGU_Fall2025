@@ -141,16 +141,6 @@
                 <li><p><m>\displaystyle f''(x)=\frac{64}{(x+4)^3}</m></p></li>
               </ul>
             </p>
-            <p>
-              <ul>
-                <li><p><m>f</m> is increasing on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> is decreasing on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> is concave up on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> is concave down on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> has local extrema at <fillin characters="20"/></p></li>
-                <li><p><m>f</m> has point(s) of inflection at <fillin characters="20"/></p></li>
-              </ul>
-            </p>
           </statement>
         </exercise>
 
@@ -171,12 +161,9 @@
               water at a rate of 10 cubic meters per minute. How fast is the
               height of the water increasing when the water is 5 meters deep?
             </p>
-            <figure xml:id="fig-cylinder">
-              <caption>Cylinder diagram</caption>
-              <image source="Graphics/Cylninder.png" width="15%">
-                <description><p>Diagram of a cylinder.</p> </description>
+              <image source="Cylninder.png" width="15%">
+                <description><p>Diagram of a cylinder.</p></description>
               </image>
-            </figure>
             <p>
               <alert>Formulas for Cylinders:</alert>
               Volume: <m>\displaystyle V=\pi r^2h</m>;
@@ -189,7 +176,7 @@
   
     <paragraphs>
         <title>Now Grades Go Up</title>
-      <exercise number="1">
+      <exercise workspace="1in" number="1">
           <statement>
             <p>
               A marker manufacturer determined that the total cost, in dollars,
@@ -201,26 +188,26 @@
           </statement>
         </exercise>
 
-        <exercise number="2">
+        <exercise workspace="1in" number="1">
           <statement>
             <p>
               A marker manufacturer determined that the total cost, in dollars,
               of producing <m>x</m> boxes of dry erase markers in one day is
               given by <m>C(x)=350+2x-0.01x^2</m>, where <m>0\leq x \leq 150</m>.
-              Find the <em>exact</em> cost of producing the 103rd box of dry
-              erase markers.
+              Approximate the cost of producing the 103rd box of dry erase
+              markers using marginal analysis.
             </p>
           </statement>
         </exercise>
 
-        <exercise number="3">
+        <exercise workspace="1in" number="3">
           <statement>
             <p>
               Given <m>\displaystyle h(x)=\frac{f(x)}{\sqrt{2x}}</m>,
               <m>f(8)=80</m>, and <m>f'(8)=3</m>, find <m>h'(8)</m>.
             </p>
             <p>
-              <ol label="a">
+              <ol marker="(a)">
                 <li><p><m>\displaystyle -\frac{1}{2}</m></p></li>
                 <li><p><m>\displaystyle \frac{1}{2}</m></p></li>
                 <li><p><m>\displaystyle \frac{1}{8}</m></p></li>
@@ -245,51 +232,73 @@
               </ul>
             </p>
             <p>
-              <ol label="a">
+              <ol marker="(a)">
                 <li>
                   <p>Graph I</p>
-                  <figure xml:id="fig-graph1">
-                    <caption>Graph I</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig4.png" width="45%">
-                      <description>Graph I — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig4.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes. The curve rises as <m>x</m> increases from the left, 
+                          reaching a smooth peak at <m>(-2,1)</m>, and then decreases to the 
+                          right and off the graph. The curve is concave down throughout.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph II</p>
-                  <figure xml:id="fig-graph2">
-                    <caption>Graph II</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig5.png" width="45%">
-                      <description>Graph II — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig5.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes. The curve rises as <m>x</m> increases from the left, 
+                          reaching a smooth peak at <m>(-2,3)</m>, decreases until about <m>x = 0</m> where it reaches a smooth valley before rising to the 
+                          right and off the graph. The curve begins concave down on the left of the graph and switches to concave up around <m>x=-1</m>.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph III</p>
-                  <figure xml:id="fig-graph3">
-                    <caption>Graph III</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig8.png" width="45%">
-                      <description>Graph III — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig8.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes.
+                          The curve rises as <m>x</m> increases from the left, 
+                          reaching a sharp peak at <m>(-2,3)</m>, which can be recognized as a cusp. The graph then decreases to the 
+                          right and off the graph. The curve is concave down throughout, except at its cusp.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph IV</p>
-                  <figure xml:id="fig-graph4">
-                    <caption>Graph IV</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig6.png" width="45%">
-                      <description>Graph IV — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig6.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes. The curve rises as <m>x</m> increases from the left, 
+                          reaching a smooth peak at <m>(-2,3)</m>, and then decreases to the 
+                          right and off the graph. The curve is concave down throughout.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph V</p>
-                  <figure xml:id="fig-graph5">
-                    <caption>Graph V</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig7.png" width="45%">
-                      <description>Graph V — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig7.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes with a dashed vertical line at <m>x = -2</m>. 
+                          To the left of <m>x = -2</m>, the curve stays above <m>y = 3</m>, rises gradually, then increases very rapidly as it approaches the dashed line. 
+                          To the right of <m>x = -2</m>, the curve starts very high, falls steeply, levels off smoothly near <m>x = -1</m>, and then rises 
+                          steadily and off the graph as <m>x</m> increases. The curve is concave down throughout, except at the horizontal asymptote.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
               </ol>
             </p>
