@@ -14,6 +14,7 @@
     <target name="web7" source="Session7.ptx" format="html" deploy-dir="web7" />
     <target name="web8" source="Session8.ptx" format="html" deploy-dir="web8" />
     <target name="web9" source="Session9.ptx" format="html" deploy-dir="web9" />
+    <target name="web10" source="Session10.ptx" format="html" deploy-dir="web10" />
     <target name="websample" source="Sample.ptx" format="html"/>
     <target name="print" format="pdf" />
   </targets>
