@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>nakad-HOGUSession9</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+      \newcommand{\D}{\displaystyle}
+    </macros>
+  </docinfo>
+
+<article xml:id="session9wks" label="8972">
+
+  <title>MATH 142 Hands-On, Grades Up</title>
+
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+
+  <worksheet>
+
+    <title>Session #9 (4.1 and 4.2)</title>
+
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+
+    <paragraphs>
+      <title>Getting Warmed Up and in the Right Mindset</title>
+
+
+      <exercise workspace="1in">
+        <introduction>
+          <p>
+            Complete the following antiderivative rules.
+          </p>
+        </introduction>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Constant Rule:
+              <m>\int k \, dx = </m> <fillin characters="10" />,
+              where <m>k</m> is any real number.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Power Rule:
+              <m>\int x^n \, dx = </m> <fillin characters="10" />,
+              where <m>n</m> is any real number with <m>n \neq -1</m>.
+            </p>
+
+            <p>
+              Special Case:
+              <m>\int \frac{1}{x}\,dx = </m><fillin characters="10" />
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Exponential Rule:
+              <m>\int b^x\,dx = </m> <fillin characters="10" />,
+              where <m>b</m> is a positive real number.
+            </p>
+
+            <p>
+              Special Case:
+              <m>\int e^x\,dx = </m> <fillin characters="10" />
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Sum/Difference Rule:
+              <m>\int (f(x)\pm g(x))\,dx = </m> <fillin characters="10" />
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Constant Multiple Rule:
+              <m>\int kf(x)\,dx = </m> <fillin characters="10" /> where <m>k</m> is any real number.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+    </paragraphs>
+
+    <paragraphs>
+
+      <title>Let Us Get Our Hands On</title>
+
+      <exercise workspace="2in" number="1">
+        <statement>
+          <p>
+            The most general antiderivative of
+            <m>f'(x)=2x+e^x+6x^2</m>
+            is
+            <m>f(x)=</m> <fillin characters="15" />
+          </p>
+
+          <p>
+            Use the space below to check your answer by differentiating your result.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="2">
+        <statement>
+          <p>
+            Find
+            <m>\int (x^4-x^3+x^2)\,dx</m>.
+          </p>
+
+          <p>
+            Check your answer by differentiating your result.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="3">
+        <statement>
+          <p>
+            Find
+            <m>\int (5t^8-2t^4+t+3)\,dt</m>.
+          </p>
+
+          <p>
+            Check your answer by differentiating your result.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="4">
+
+        <introduction>
+          <p>
+            Find the following indefinite integrals.
+          </p>
+        </introduction>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int (7u^{3/2}+2u^{1/2})\,du</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int (3x^{-2}-4x^{-3})\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int \left(\frac{3}{x}+3^x\ln(3)+\frac{6}{x^{2/3}}\right)\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int \frac{3x^2+4x+1}{2x}\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int \frac{x^4-6x^3+e^x\sqrt{x}}{\sqrt{x}}\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="5">
+        <statement>
+          <p>
+            Find the constant of integration <m>C</m> for
+            <m>f'(x)=5e^x-3x^2</m>
+            given
+            <m>f(0)=6</m>.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="6">
+        <statement>
+          <p>
+            Find the specific antiderivative of
+            <m>f'(r)=r^2-2r+\frac{1}{r}</m>
+            given
+            <m>f(1)=\frac{4}{3}</m>.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="7">
+        <statement>
+          <p>
+            Find the specific antiderivative of
+            <m>g'(t)=(5-t)(3+7\sqrt{t^3})</m>
+            given
+            <m>g(4)=220</m>.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="8">
+
+        <introduction>
+          <p>
+            For each indefinite integral below, find an appropriate substitution,
+            rewrite the integral in terms of the new variable, and then compute
+            the indefinite integral.
+          </p>
+        </introduction>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Given
+              <m>\int x^2(x^3+1)^4\,dx</m>,
+              let
+              <m>u=</m> __________
+              and
+              <m>du=</m> __________.
+            </p>
+
+            <p>
+              Rewrite the integral in terms of <m>u</m> and evaluate.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Given
+              <m>\int \frac{6x}{\sqrt{1-x^2}}\,dx</m>,
+              let
+              <m>u=</m> __________
+              and
+              <m>du=</m> __________.
+            </p>
+
+            <p>
+              Rewrite the integral in terms of <m>u</m> and evaluate.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Given
+              <m>\int (x^2+1)e^{2x^3+6x-8}\,dx</m>,
+              let
+              <m>u=</m> __________
+              and
+              <m>du=</m> __________.
+            </p>
+
+            <p>
+              Rewrite the integral in terms of <m>u</m> and evaluate.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="1.5in" number="9">
+        <statement>
+          <p>
+            Find
+            <m>\int 2e^{8x}\,dx</m>.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="1.5in" number="10">
+        <statement>
+          <p>
+            Find
+            <m>\int (16x^2+2e^{8x})\,dx</m>.
+          </p>
+        </statement>
+      </exercise>
+
+    </paragraphs>
+
+    <paragraphs>
+
+      <title>Now Grades Go Up</title>
+
+      <exercise workspace="2in" number="1">
+        <statement>
+          <p>
+            A company has a marginal revenue function given by
+            <m>R'(x)=\frac{600}{2x+1}</m>
+            dollars per item when <m>x</m> items are sold.
+            Find the company's revenue function when <m>x</m> items are sold.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in" number="2">
+        <statement>
+          <p>
+            The marginal cost for a company when <m>x</m> items are produced can be modeled by
+            <m>C'(x)=\ln(2)(0.02x)2^{0.01x^2}</m> dollars per item when <m>x</m> items are produced.
+            If it costs <m>\$102</m> to produce 10 items,
+            what is the cost to produce 20 items?
+          </p>
+        </statement>
+      </exercise>
+
+    </paragraphs>
+
+  </worksheet>
+
+</article>
+
+</pretext>
