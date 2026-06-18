@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html -->
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+        \newcommand{\foo}{b^{ar}}
+        \newcommand{\D}{\displaystyle}
+    </macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="session11wks" label="1091">
+    <title>MATH 142 Hands-On, Grades Up</title>
+    <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+    </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+<worksheet>
+    <title> Session #11 (Section 4.6)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+    <paragraphs>
+        <title>Getting Warmed Up and In the Right Mindset....</title>
+
+    <exercise>
+        <statement>
+            <p>Shade in the area between the curves <m>f(x)</m> and <m>g(x)</m> on the interval <m>[-2,4]</m>.</p>
+
+            <image source="Graphics/session11_1.png">
+                <shortdescription>Graph of the functions used in the problem.</shortdescription>
+            </image>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Shade in the area between the curves <m>g(x)</m> and <m>h(x)</m> on the interval <m>[-2,7]</m>.</p>
+
+            <image source="Graphics/session11_1.png">
+                <shortdescription>Graph of the functions used in the problem.</shortdescription>
+            </image>
+        </statement>
+    </exercise>
+
+    <exercise xml:id="session11-warmup-3">
+        <statement>
+            <p>Shade in the area bounded by the curves <m>h(x)</m> and <m>g(x)</m>.</p>
+
+            <image source="Graphics/session11_1.png">
+                <shortdescription>Graph of the functions used in the problem.</shortdescription>
+            </image>
+        </statement>
+    </exercise>
+
+    <exercise xml:id="session11-warmup-4">
+        <statement>
+            <p>Shade in the area bounded by the curve <m>g(x)</m> and the <m>x</m>-axis.</p>
+
+            <image source="Graphics/session11_1.png">
+                <shortdescription>Graph of the functions used in the problem.</shortdescription>
+            </image>
+        </statement>
+    </exercise>
+
+    </paragraphs>
+
+    <paragraphs>
+        <title>Let us get our hands on!</title>
+
+
+    </paragraphs>
+
+    <paragraphs>
+        <title>Now...Grades Go Up!</title>
+
+    </paragraphs>
+
+  </worksheet>
+  </article>
+</pretext>
