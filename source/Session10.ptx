@@ -36,16 +36,18 @@
             Use the graph of <m>g'(x)</m> given below and shade in the area represented by
             <m>\displaystyle\int_0^5 g'(x)\,dx</m>.
             </p>
-            <image source="MATH142_HOGU_Session10_Fig1.png" width="70%">
+            <image source="MATH142_HOGU_Session10_Fig1.png" width="50%">
             <shortdescription>
-                Graph of <m>g'(x)</m> plotted on coordinate axes. Refer to image description for more detail.
+                Graph of a function plotted on coordinate axes. Refer to image description for more detail.
             </shortdescription>
             <description>
                 <p>
-                The graph of <m>g'(x)</m> consists of several line segments above and below the
-                <m>x</m>-axis. The horizontal axis is marked from <m>x=0</m> to <m>x=13</m>.
-                Use the graph to identify and shade the region corresponding to the signed area
-                represented by <m>\displaystyle\int_0^5 g'(x)\,dx</m>.
+                The graph shows a function, labeled <m>g'(x)</m>, defined on <m>x=0</m> to <m>x=13</m>.               
+                From <m>x=0</m> to <m>x=2</m>, the function is a line segment with endpoints <m>(0,0)</m> and <m>(2,4)</m>. 
+                From <m>x=2</m> to <m>x=5</m>, the function is a line segment with endpoints <m>(2,4)</m> to <m>5,4</m>.
+                From <m>x=5</m> to <m>x=9</m>, the function is the upper half of a circle centered at <m>(7,4)</m> and with endpoints <m>(5,4)</m> and <m>(9,4)</m>.
+                From <m>x=9</m> to <m>x=11</m>, the function is a line segment with endpoints <m>(9,4)</m> and <m>(11,-4)</m>.
+                And finally, from <m>x=11</m> to <m>x=13</m>, the function is a line segment with endpoints <m>(11,-4)</m> and <m>(13,4)</m>.
                 </p>
             </description>
             </image>
@@ -58,16 +60,18 @@
             Use the graph of <m>g'(x)</m> given below and shade in the area represented by
             <m>\displaystyle\int_7^{13} g'(x)\,dx</m>.
             </p>
-            <image source="MATH142_HOGU_Session10_Fig1.png" width="70%">
+            <image source="MATH142_HOGU_Session10_Fig1.png" width="50%">
             <shortdescription>
                 Graph of a function plotted on coordinate axes. Refer to image description for more detail.
             </shortdescription>
             <description>
                 <p>
-                The graph of <m>g'(x)</m> consists of several line segments above and below the
-                <m>x</m>-axis. The horizontal axis is marked from <m>x=0</m> to <m>x=13</m>.
-                Use the graph to identify and shade the region corresponding to the signed area
-                represented by <m>\displaystyle\int_7^{13} g'(x)\,dx</m>.
+                The graph shows a function, labeled <m>g'(x)</m>, defined on <m>x=0</m> to <m>x=13</m>.               
+                From <m>x=0</m> to <m>x=2</m>, the function is a line segment with endpoints <m>(0,0)</m> and <m>(2,4)</m>. 
+                From <m>x=2</m> to <m>x=5</m>, the function is a line segment with endpoints <m>(2,4)</m> to <m>5,4</m>.
+                From <m>x=5</m> to <m>x=9</m>, the function is the upper half of a circle centered at <m>(7,4)</m> and with endpoints <m>(5,4)</m> and <m>(9,4)</m>.
+                From <m>x=9</m> to <m>x=11</m>, the function is a line segment with endpoints <m>(9,4)</m> and <m>(11,-4)</m>.
+                And finally, from <m>x=11</m> to <m>x=13</m>, the function is a line segment with endpoints <m>(11,-4)</m> and <m>(13,4)</m>.
                 </p>
             </description>
             </image>
@@ -84,15 +88,18 @@
         <p>
           Given the graph of <m>g'(x)</m> below, compute the integrals below.
         </p>
-        <image source="MATH142_HOGU_Session10_Fig1.png" width="70%">
+        <image source="MATH142_HOGU_Session10_Fig1.png" width="50%">
           <shortdescription>
             Graph of a function plotted on coordinate axes. Refer to image description for more detail.
           </shortdescription>
           <description>
             <p>
-              The graph of <m>g'(x)</m> consists of several line segments above and below the
-              <m>x</m>-axis on the interval from <m>x=0</m> to <m>x=13</m>. Use the graph to
-              determine the signed areas corresponding to the integrals below.
+              The graph shows a function, labeled <m>g'(x)</m>, defined on <m>x=0</m> to <m>x=13</m>.               
+                From <m>x=0</m> to <m>x=2</m>, the function is a line segment with endpoints <m>(0,0)</m> and <m>(2,4)</m>. 
+                From <m>x=2</m> to <m>x=5</m>, the function is a line segment with endpoints <m>(2,4)</m> to <m>5,4</m>.
+                From <m>x=5</m> to <m>x=9</m>, the function is the upper half of a circle centered at <m>(7,4)</m> and with endpoints <m>(5,4)</m> and <m>(9,4)</m>.
+                From <m>x=9</m> to <m>x=11</m>, the function is a line segment with endpoints <m>(9,4)</m> and <m>(11,-4)</m>.
+                And finally, from <m>x=11</m> to <m>x=13</m>, the function is a line segment with endpoints <m>(11,-4)</m> and <m>(13,4)</m>.
             </p>
           </description>
         </image>
@@ -169,11 +176,11 @@
     </exercise>
 
     <exercise number="3">
-      <statement>
+      <introduction>
         <p>
           Evaluate each of the following definite integrals exactly. Leave all answers in exact form.
         </p>
-      </statement>
+      </introduction>
 
       <task>
         <statement>
@@ -209,9 +216,9 @@
     </exercise>
 
     <exercise number="4">
-      <statement>
+      <introduction>
         <p>Find all values of <m>A</m> such that:</p>
-      </statement>
+      </introduction>
 
       <task>
         <statement>
@@ -306,17 +313,17 @@
     </exercise>
 
     <exercise number="7">
-      <statement>
+      <introduction>
         <p>
           A manufacturer needs to make a closed cylindrical can that will hold
-          <m>1500</m> cm<sup>3</sup> of water. Determine the dimensions (in cm)
+          <m>1500</m> <m>\text{cm}^3</m> of water. Determine the dimensions (in cm)
           of the can that will use the least amount of material.
           (Hint: The formula for the volume of a cylinder is
           <m>\displaystyle V=\pi r^2h</m>
           and the formula for the surface area of a cylinder is
           <m>\displaystyle A=2\pi rh+2\pi r^2</m>.)
         </p>
-      </statement>
+      </introduction>
 
       <task>
         <statement>
@@ -412,7 +419,7 @@
           <m>\displaystyle g(a)</m>.
         </p>
 
-        <ol marker="A.">
+        <ol marker="(a)">
           <li><p><m>g(a)=-8</m></p></li>
           <li><p><m>g(a)=26</m></p></li>
           <li><p><m>g(a)=8</m></p></li>
@@ -431,7 +438,7 @@
           <m>\displaystyle \int_{0}^{3}\bigl(2x+f(x)\bigr)\,dx</m>.
         </p>
 
-        <ol marker="A.">
+        <ol marker="(a)">
           <li><p><m>9</m></p></li>
           <li><p><m>-2</m></p></li>
           <li><p><m>-11</m></p></li>
