@@ -250,7 +250,7 @@
                 <p>
                   <m>\D \lim_{x \rightarrow 1} f(x)</m> where <m>\D f(x) = \begin{cases}
                   2x^2-1 \amp x \lt 1 \\
-                  -4x+3 \amp x \geq 1               
+                  -4x+5 \amp x \geq 1               
                    \end{cases}</m>
                 </p>
               </statement>
