@@ -30,7 +30,7 @@
     
     <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-    <exercise workspace="0.75in"><!-- #1 --><!-- controlling workspace length is the best way to force page breaks on a worksheet -->
+    <exercise workspace="0.8in"><!-- #1 --><!-- controlling workspace length is the best way to force page breaks on a worksheet -->
       <statement>
         <p>
           Explain the meaning of of <m>\D\lim_{x \to 3} f(x) = -2</m>. <!--see 4.9 in Guide for displaying mathematics-->
@@ -38,7 +38,7 @@
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in"><!-- #2 -->
+    <exercise workspace="0.8in"><!-- #2 -->
       <statement>
         <p>
          If <m>\D\lim_{x \to 2} g(x) = 7</m>, then <m>\D\lim_{x \to 2^-} g(x)</m> <fillin/>.
@@ -46,7 +46,7 @@
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in"><!-- #3 -->
+    <exercise workspace="0.8in"><!-- #3 -->
       <statement>
         <p>
         If <m>\D\lim_{x \to 8^-} h(x) = \frac{2}{3}</m> and <m>\D\lim_{x \to 8^+} h(x) = -\frac{4}{3}</m>, 
@@ -55,7 +55,7 @@
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in"><!-- #4 -->
+    <exercise workspace="0.8in"><!-- #4 -->
       <statement>
         <p>
          If <m>\D\lim_{x \to -6^-} p(x) = \sqrt{5}</m> and <m>\D\lim_{x \to -6^+} p(x) = \sqrt{5}</m>, then 
@@ -64,7 +64,7 @@
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in"><!-- #5 -->
+    <exercise workspace="0.8in"><!-- #5 -->
       <statement>
         <p>
          If <m>\D\lim_{x \to 0^-} h(x) = e</m>, what do we know about <m>\D\lim_{x \to 0} h(x)</m>?
@@ -202,17 +202,17 @@
           </p>
         </introduction>
           <!-- see 4.11 for making lists and different options for markers-->
-            <task workspace="2in">
+            <task workspace="1.55in">
               <p>
                 <m>\D \lim_{x \rightarrow 0}f(x)</m>
               </p>
             </task>
-            <task workspace="2in">
+            <task workspace="1.55in">
               <p>
                 <m>\D \lim_{x \rightarrow -2^+}f(x)</m>
               </p>
             </task>
-            <task workspace="2in">
+            <task workspace="1.55in">
               <p>
                 <m>\D \lim_{x \rightarrow -5}f(x)</m>
               </p>
@@ -245,138 +245,71 @@
                 <m>\D \lim_{x \rightarrow -3}\frac{x^{2}+3x}{x^{2}+6x+9}</m>
               </p>
             </task>
+            <task workspace="3in">
+              <statement>
+                <p>
+                  <m>\D \lim_{x \rightarrow 1} f(x)</m> where <m>\D f(x) = \begin{cases}
+                  2x^2-1 \amp x \lt 1 \\
+                  -4x+3 \amp x \geq 1               
+                   \end{cases}</m>
+                </p>
+              </statement>
+            </task>
+            <task workspace="3in">
+              <statement>
+                <p>
+                  <m>\D \lim_{x \rightarrow 6} f(x)</m> where <m>\D f(x) = \begin{cases}
+                  \sqrt[3]{2+x} \amp x \leq 6 \\
+                  e^{x-5} \amp x > 6               
+                   \end{cases}</m>
+                </p>
+              </statement>
+            </task>
     </exercise> 
 
     <exercise number="7"><!-- #7 -->
       <introduction>
-        <p> For each graph below, find the indicated limit.</p>
+        <p>
+          Let 
+          <m>\D g(x) = \begin{cases}
+                  e^{2x} \amp x \lt 0 \\
+                  3x^2+1 \amp 0 \leq x \lt 4 \\
+                  \frac{1}{x-1} \amp x \geq 4               
+                   \end{cases}.
+          </m>
+          Find each limit or function value algebraically. If a limit does not exist, state so and use limit notation to describe any infinite behavior.
+        </p>
       </introduction>
-          <task>
-            <sidebyside widths ="75% 25%" valign ="middle"><!-- see 4.24 for more on side-by-side -->
-            <p>
-            <image source="M142_HOGU_session1_fig3.png" width="70%">
-              <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
-              <description>
-                <p>
-                  Graph of a function <m>g(x)</m> plotted on coordinates axes. The graph decreases from the top left corner, dips below the <m>x</m>-axis and then 
-                  increases until it encounters a vertical asymptote at <m>x=1</m>. To the right of <m>x=1</m>, the function increases until it leaves the coordinate axes
-                  on the top right. 
-                </p>
-              </description>
-            </image> 
-          </p>
+      <task workspace="1.1in">
+        <statement>
           <p>
-            <ol marker="(i)">
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow \infty}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow -\infty}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow 1^+}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow 1^-}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow 1}g(x)</m>
-                </p>
-              </li>
-            </ol>
+            <m>g(4)</m>
           </p>
-        </sidebyside>
+        </statement>
       </task>
-          <task>
-            <sidebyside widths ="75% 25%" valign ="middle">
-            <p>
-              <image source="M142_HOGU_session1_fig4.png" width="70%">
-              <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
-              <description>
-                <p>
-                  Graph of a function <m>g(x)</m> plotted on coordinate axes. Starting on the left, the graph increases away from, but never touches, the horizontal asymptote
-                  <m>y = -6</m>. The graph reaches a peak above the <m>x</m>-axis, and then decreases along, but never touching the vertical asymptote <m>x=3</m> until it leaves 
-                  the coordinate axes. The graph then increases to the right of the vertical asymptote, approaching but not touching the horizontal asymptote <m>y = -6</m>
-                  until it leaves the coordinate axes.
-                </p>
-              </description>
-            </image> 
-            </p>
-            <p>
-            <ol marker="(i)">
-              <task>
-                <p>
-                  <m>\D \lim_{x \rightarrow \infty}g(x)</m>
-                </p>
-              </task>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow -\infty}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow 3^+}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow 3^-}g(x)</m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m>\D \lim_{x \rightarrow 3}g(x)</m>
-                </p>
-              </li>
-            </ol>
+      <task workspace="1.9in">
+        <statement>
+          <p>
+            <m>\D\lim_{x \to 0}g(x)</m>
           </p>
-        </sidebyside>
+        </statement>
       </task>
-    </exercise> 
+      <task workspace="1.9in">
+        <statement>
+          <p>
+            <m>\D\lim_{x \to 4^+} g(x)</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
 
-    <exercise number="8"><!-- #8 -->
-      <introduction>
-        <p> Jenn is trying to find <m>\D\lim_{x \rightarrow \infty} f(x)</m> given  <m>f(x) = \frac{12+4x^7+x}{-19x^6+2x^2-5x^7}</m>. </p>
-      </introduction>
-          <task workspace="1.5in">
-            <p>
-              Jenn starts by evaluating the limit <m>x \to \infty</m> of the numerator and of the denominator separately,
-              but gets the indeterminant form <m>\D\frac{\infty}{-\infty}</m> for the overall limit.
-              She then remembers a technique from math class: <em>when evaluating limits at infinity, divide every term in
-              the numerator and denominator by the term with the highest power in the denominator</em>.
-              What should she divide each term by? What is the result after division?  
-              <!--See 4.1 for acceptable markups in paragraphs. Note that there is (intentionally) no option to bold text.-->
-            </p>
-          </task>
-          <task workspace="2in">
-            <p>
-              The next step is to take the limit <m>x \to \infty</m> of <em>each</em> term in <m>f(x)</m> as rewritten in part (a).
-              For example, the term <m>\D\frac{12}{x^{7}}</m> goes to <m>0</m> as <m>x \to \infty</m>.
-              We can indicate this by writing <m>\D\cancelto{{0}}{\frac{12}{x^{7}}}</m>.
-            </p>
-          </task>
-          <task workspace="0.5in">
-            <p>
-              Use part (b) to find the exact value of <m>\D \lim_{x \rightarrow \infty}f(x)</m>.
-            </p>
-          </task>
-    </exercise> 
+    
   
   </paragraphs>
   
   <paragraphs>
     <title>Now Grades Go Up</title>  
-    <exercise number="1"><!-- #1 -->
+    <exercise workspace="1in" number="1"><!-- #1 -->
       <statement>
         <p>
           The mathematical notation <m>\D\lim \limits_{x \rightarrow 5} f(x)</m> means <m>\underline{ \qquad\qquad}</m>
@@ -393,7 +326,7 @@
       </statement>
     </exercise>
 
-    <exercise number="2"><!-- #2 -->
+    <exercise workspace="1.7in" number="2"><!-- #2 -->
       <statement>
         <p>
            Find <m>\D\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}</m>. If the limit does not exist, but has infinite behavior, use limit notation to 
@@ -411,7 +344,7 @@
       </statement>
     </exercise>
 
-    <exercise number="3"><!-- #3 -->
+    <exercise workspace="1.5in" number="3"><!-- #3 -->
       <statement>
         <p>
           Find <m>\D\lim \limits_{x \rightarrow 7} \frac{x^2-8x+7}{x-7}</m>.
